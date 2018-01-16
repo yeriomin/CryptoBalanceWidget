@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name" translatable="false">Crypto Balance Widget</string>
+    <string name="content_description_balance" translatable="false">Balance</string>
+    <string name="content_description_wallet_id" translatable="false">Wallet id</string>
+    <string name="content_description_description" translatable="false">Description</string>
+    <string name="content_description_progress" translatable="false">Progress</string>
+    <string-array name="wallet_currencies" translatable="false">
+        <item>BTC</item>
+        <item>LTC</item>
+        <item>DOGE</item>
+        <item>ETH</item>
+    </string-array>
+    <string-array name="exchange_providers" translatable="false">
+        <item>Coinbase</item>
+        <item>CryptoCoinCharts</item>
+        <item>Cryptonator</item>
+        <item>Eobot</item>
+    </string-array>
+</resources>

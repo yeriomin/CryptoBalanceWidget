@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="configuration_convert">Конвертировать</string>
+    <string name="configuration_convert_to">Сконвертировать в</string>
+    <string name="configuration_currency">Валюта кошелька</string>
+    <string name="configuration_exchange_provider">Обменник</string>
+    <string name="configuration_hint_description">Описание (не обязаетельно)</string>
+    <string name="configuration_hint_wallet_address">Адрес кошелька</string>
+    <string name="configuration_invalid_display_currency">Эта валюта не поддерживается</string>
+    <string name="configuration_invalid_wallet_address">Адрес кошелька введён неверно</string>
+    <string name="configuration_notify">Сообщать об изменении баланса</string>
+    <string name="notification_title_balance_changed">Изменился баланс %1$s</string>
+    <string name="notification_message_balance_changed">Теперь %1$s</string>
+</resources>

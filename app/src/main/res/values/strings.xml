@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="configuration_convert">Convert</string>
+    <string name="configuration_convert_to">Convert to</string>
+    <string name="configuration_currency">Wallet currency</string>
+    <string name="configuration_exchange_provider">Exchange</string>
+    <string name="configuration_hint_description">Short description (not required)</string>
+    <string name="configuration_hint_wallet_address">Wallet address</string>
+    <string name="configuration_invalid_display_currency">This currency is not supported</string>
+    <string name="configuration_invalid_wallet_address">Wallet address invalid</string>
+    <string name="configuration_notify">Notify when balance changes</string>
+    <string name="notification_title_balance_changed">Balance changed %1$s</string>
+    <string name="notification_message_balance_changed">Now %1$s</string>
+</resources>

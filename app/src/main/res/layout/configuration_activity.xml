@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/configuration_wallet_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/configuration_hint_wallet_address"/>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="8dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/configuration_currency"
+            android:gravity="end|center"
+            android:layout_gravity="end|center"/>
+
+        <Spinner
+            android:id="@+id/configuration_wallet_currency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:entries="@array/wallet_currencies"/>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/configuration_notify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/configuration_notify"/>
+
+    <CheckBox
+        android:id="@+id/configuration_convert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/configuration_convert"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end|center"
+                android:layout_gravity="end|center"
+                android:text="@string/configuration_exchange_provider"/>
+
+            <Spinner
+                android:id="@+id/configuration_exchange_provider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/exchange_providers" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end|center"
+                android:layout_gravity="end|center"
+                android:text="@string/configuration_convert_to"/>
+
+            <AutoCompleteTextView
+                android:id="@+id/configuration_display_currency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:completionThreshold="1"
+                android:enabled="false"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <EditText
+        android:id="@+id/configuration_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="@string/configuration_hint_description"/>
+
+    <Button
+        android:id="@+id/configuration_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@android:string/yes"/>
+
+</LinearLayout>
